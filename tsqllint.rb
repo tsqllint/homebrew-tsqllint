@@ -18,7 +18,7 @@ class Tsqllint < Formula
     cp_r ".", "#{prefix}"
     (bin/"tsqllint").write <<~EOS
       #!/usr/bin/env bash
-      #{prefix}/TSQLLint.Console "$@"
+      #{prefix}/TSQLLint "$@"
     EOS
   end
 end
