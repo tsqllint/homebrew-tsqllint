@@ -5,13 +5,13 @@ class Tsqllint < Formula
   license "MIT"
 
   on_macos do
-      url "https://github.com/tsqllint/tsqllint/releases/download/1.15.1/osx-x64.tgz"
-      sha256 "4560f4e49fc5cbd8802c75de5540382124f0c9bb1cfed96f18be89d799cf0da0"
+      url "https://github.com/tsqllint/tsqllint/releases/download/1.15.3/osx-x64.tgz"
+      sha256 "69f59715bf7112e6a23ad6cff6ab4259b0d3e382d7560d66c454a215f2227cf6"
   end
 
   on_linux do
-      url "https://github.com/tsqllint/tsqllint/releases/download/1.15.1/linux-x64.tgz"
-      sha256 "aa0abe7d7b59b0d1116e47c05098b51241e4db1e2dc909d9e3731dfca97f1a48"
+      url "https://github.com/tsqllint/tsqllint/releases/download/1.15.3/linux-x64.tgz"
+      sha256 "12b375e3b9b1028e6db0d5d2ffcc054e53529320db9273bd97e04f37211ac4fd"
   end
 
   def install
